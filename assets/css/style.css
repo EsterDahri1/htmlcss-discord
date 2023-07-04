@@ -21,10 +21,27 @@ font-family: 'gg sans SemiBold', sans-serif;*/
     --disc-black: #23272a;
     --disc-hbg: #255ee9;
     --disc-menu: #f0ffff;
+    --disc-h2: #25292c;
+    --disc-lastdownload: #8ea2e1;
 }
 
 section {
   padding: 2rem 0;
+}
+
+h2, h3{
+    color: var(--disc-h2);
+    font-family:'gg sans Bold', sans-serif;
+    font-size: 30px;
+    text-shadow: #23272a;
+}
+
+
+.card p{
+    font-family: 'gg sans normal', sans-serif;
+    color: var(--disc-h2);
+    margin-top: 1rem;
+    font-size: 0.8rem;
 }
 
 /* #endregion Common */
@@ -199,7 +216,8 @@ button:hover {
 }
 
 .button_container{
-    margin-top: 50px;
+    margin: 20px 150px;
+    padding-left: 20px;
 }
 
 #download, #browser{
@@ -222,7 +240,37 @@ button:hover {
 #browser{
     background-color: var(--disc-dark);
     color: var(--disc-white);
+    margin-left: 50px;
 }
+
+.small{
+    margin: 0 200px;
+}
+
+.small{
+    height: 300px;
+}
+
+.big{
+    height: 500px;
+}
+
+.h-50{
+    text-align: center;
+    padding: 2rem;
+}
+
+.lastdownload{
+    border-radius: 30px;
+    border-width: 0;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    font-family:'gg sans Medium', sans-serif;
+    background-color: var(--disc-lastdownload);
+    color:var(--disc-white);
+    margin-top: 2rem;
+}
+
 
 /* #endregion Main */
 
