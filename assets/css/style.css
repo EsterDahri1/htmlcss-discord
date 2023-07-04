@@ -6,6 +6,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html{
+font-family: 'gg sans', sans-serif;
+/*font-family: 'gg sans Normal', sans-serif;
+font-family: 'gg sans Medium', sans-serif;
+font-family: 'gg sans SemiBold', sans-serif;*/
+}
+
+:root{
+    --disc-white: #fcfdf9;
+    --disc-grey: #3a393c;
+    --disc-dark: #252628;
+    --disc-black: #23272a;
+    --disc-hbg: #3161e1;
+    --disc-menu: #f0ffff;
+}
+
 section {
   padding: 2rem 0;
 }
@@ -105,18 +122,41 @@ section {
 /* #region Header */
 
 header {
-  background-color: blue;
+  background-color: var(--disc-hbg);
 }  
 
 .logo, .login {
   width: 20%;
+  margin: auto;
 }
+
 .menu {
   width: 60%;
   text-align: center;
+  color: var(--disc-menu);
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+}
+.menu a{
+    text-decoration: none;
+    color: var(--disc-menu);
+    padding: 0 30px;
+    font-size: 1rem;
 }
 .login {
   text-align: end;
+}
+.login button{
+    border-radius: 1rem;
+    padding: 0.7rem;
+    background-color: var(--disc-white);
+    color: var(--disc-black);
+    border: none; 
+}
+
+button:hover {
+    color:var(--disc-hbg);
 }
 /* #endregion Header */
 
