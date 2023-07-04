@@ -290,12 +290,19 @@ footer > .top, footer > .bottom {
 }
 
 span{
-    color: ;
+    color: var(--disc-white);
+    font-family: 'gg sans Normal', sans-serif;
+    font-size: 15px;
+}
+
+.lingue{
+    margin: 30px 0 15px;
 }
 
 .social{
     color: var(--disc-white);
-    padding: 15px;
+    
+    font-size: 25px;
 }
 
 h3, h5{
@@ -305,6 +312,7 @@ h3, h5{
 
 h3{
     font-size: 3rem;
+    margin-bottom: 0.5rem;
 }
 
 .flagIT{
@@ -318,6 +326,7 @@ ul{
 h5, li{
     padding: 1rem;
     font-size: 1rem;
+    font-family: 'gg sans Normal', sans-serif;
 }
 
 li a{
