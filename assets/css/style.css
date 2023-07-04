@@ -298,11 +298,14 @@ span{
 .lingue{
     margin: 30px 0 15px;
 }
-
 .social{
+    padding: 15px 0;
+}
+
+.social a{
     color: var(--disc-white);
-    
     font-size: 25px;
+    text-decoration: none;
 }
 
 h3, h5{
