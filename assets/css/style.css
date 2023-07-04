@@ -17,12 +17,14 @@ font-family: 'gg sans SemiBold', sans-serif;*/
 :root{
     --disc-white: #fcfdf9;
     --disc-grey: #3a393c;
-    --disc-dark: #252628;
+    --disc-dark: #252628; 
     --disc-black: #23272a;
     --disc-hbg: #255ee9;
     --disc-menu: #f0ffff;
     --disc-h2: #25292c;
-    --disc-lastdownload: #8ea2e1;
+    --disc-lastbuttons: #8ea2e1;
+    --disc-footerbg:#23262b;
+    --disc-hfooter:#7589d8;
 }
 
 section {
@@ -144,7 +146,7 @@ header {
 
 .logo, .login {
   width: 20%;
-  margin: auto;
+  align-self: center;
 }
 
 .menu {
@@ -167,7 +169,7 @@ header {
     text-decoration: underline;
 }
 
-.login {
+.login, .tosignup {
   text-align: end;
 }
 
@@ -266,7 +268,7 @@ button:hover {
     font-size: 1rem;
     padding: 0.5rem 1.5rem;
     font-family:'gg sans Medium', sans-serif;
-    background-color: var(--disc-lastdownload);
+    background-color: var(--disc-lastbuttons);
     color:var(--disc-white);
     margin-top: 2rem;
 }
@@ -277,10 +279,20 @@ button:hover {
 
 /* #region Footer */
 footer {
-  background-color: darkblue;
+  background-color:var(--disc-footerbg);
 }
 footer > .top, footer > .bottom {
   padding: 1rem 0;
+}
+
+.signup {
+    border-radius: 30px;
+    border: none;
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-family:'gg sans Medium', sans-serif;
+    background-color: var(--disc-lastbuttons);
+    color:var(--disc-white);
 }
 
 /* #endregion Footer */
