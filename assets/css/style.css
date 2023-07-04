@@ -198,6 +198,10 @@ button:hover {
     font-family: 'gg sans Normal', sans-serif;
 }
 
+.button_container{
+    margin-top: 50px;
+}
+
 #download, #browser{
     border-radius: 30px;
     border-width: 0;
