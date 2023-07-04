@@ -7,13 +7,6 @@
   box-sizing: border-box;
 }
 
-html{
-/*font-family: 'gg sans', sans-serif;
-font-family: 'gg sans Normal', sans-serif;
-font-family: 'gg sans Medium', sans-serif;
-font-family: 'gg sans SemiBold', sans-serif;*/
-}
-
 :root{
     --disc-white: #fcfdf9;
     --disc-grey: #3a393c;
@@ -38,7 +31,6 @@ h2, h4{
     text-shadow: #23272a;
 }
 
-
 .card p{
     font-family: 'gg sans normal', sans-serif;
     color: var(--disc-h2);
@@ -48,7 +40,7 @@ h2, h4{
 
 /* #endregion Common */
 
-/* #region Debug */
+/* #region Debug 
 .debug .container
 {
   background-color: rgb(255, 166, 0);
@@ -92,6 +84,7 @@ h2, h4{
   width: 60%;
   margin: auto;
 }
+
 .justify-content-between {
   justify-content: space-between;
 }
@@ -246,11 +239,8 @@ button:hover {
 }
 
 .small{
-    margin: 0 200px;
-}
-
-.small{
-    height: 300px;
+    max-width: 600px;
+    margin: 0 150px;
 }
 
 .big{
@@ -260,6 +250,7 @@ button:hover {
 .h-50{
     text-align: center;
     padding: 2rem;
+    max-width:60%;
 }
 
 .stars{
