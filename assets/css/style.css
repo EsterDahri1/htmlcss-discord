@@ -31,7 +31,7 @@ section {
   padding: 2rem 0;
 }
 
-h2, h3{
+h2, h4{
     color: var(--disc-h2);
     font-family:'gg sans Bold', sans-serif;
     font-size: 30px;
@@ -262,6 +262,10 @@ button:hover {
     padding: 2rem;
 }
 
+.stars{
+    width: 600px;
+}
+
 .lastdownload{
     border-radius: 30px;
     border-width: 0;
@@ -283,6 +287,42 @@ footer {
 }
 footer > .top, footer > .bottom {
   padding: 1rem 0;
+}
+
+span{
+    color: ;
+}
+
+.social{
+    color: var(--disc-white);
+    padding: 15px;
+}
+
+h3, h5{
+    color: var(--disc-hfooter);
+    font-family:'gg sans Medium', sans-serif;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+.flagIT{
+    width: 30px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h5, li{
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+li a{
+    text-decoration: none;
+    color: var(--disc-white);
 }
 
 .signup {
