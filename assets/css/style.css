@@ -39,11 +39,16 @@ h4 {
   text-shadow: #23272a;
 }
 
+section h2{
+  padding: 2rem;
+}
+
 .card p {
   font-family: 'gg sans normal', sans-serif;
   color: var(--disc-h2);
   margin-top: 1rem;
   font-size: 0.8rem;
+  padding: 1rem 2rem;
 }
 
 /* #endregion Common */
@@ -223,7 +228,6 @@ button:hover {
 
 .small {
   max-width: 100%;
-  margin: 0 150px;
 }
 
 .big {
