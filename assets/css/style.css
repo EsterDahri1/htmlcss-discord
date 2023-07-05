@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  min-width: 1440px;
+}
+
 :root {
   --disc-white: #fcfdf9;
   --disc-grey: #3a393c;
@@ -218,7 +222,7 @@ button:hover {
 }
 
 .small {
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 150px;
 }
 
