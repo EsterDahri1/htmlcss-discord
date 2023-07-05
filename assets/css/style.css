@@ -198,8 +198,10 @@ button:hover {
   padding: 2rem 0;
   background-image: url(../img/jumbo.png);
   width: 100%;
-  background-repeat: no-repeat;
+  background-position: top;
   background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .container-sm h1 {
